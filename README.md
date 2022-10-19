@@ -67,6 +67,8 @@ Para hacer mas útil la aplicación, en lugar de capturar las coordenadas con ca
 1. Haga que el 'callback' asociado al tópico /topic/newpoint en lugar de mostrar una alerta, dibuje un punto en el canvas en las coordenadas enviadas con los eventos recibidos. Para esto puede [dibujar un círculo de radio 1](http://www.w3schools.com/html/html5_canvas.asp).
 4. Ejecute su aplicación en varios navegadores (y si puede en varios computadores, accediendo a la aplicación mendiante la IP donde corre el servidor). Compruebe que a medida que se dibuja un punto, el mismo es replicado en todas las instancias abiertas de la aplicación.
 
+![image](https://user-images.githubusercontent.com/90571387/196794820-9a1e1b5c-5ade-4c23-a8db-b69049423eae.png)
+
 5. Haga commit de lo realizado, para marcar el avance de la parte 2.
 
 	```bash
