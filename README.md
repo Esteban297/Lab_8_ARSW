@@ -51,6 +51,7 @@ Para esto, realice lo siguiente:
 
 4. Ingrese los datos, ejecute la acción del botón, y verifique que en todas la pestañas se haya lanzado la alerta con los datos ingresados.
 
+![image](https://user-images.githubusercontent.com/90571387/196792051-da08dcc1-7f48-48c0-aa23-d4d7faee3dbf.png)
 
 5. Haga commit de lo realizado, para demarcar el avance de la parte 2.
 
