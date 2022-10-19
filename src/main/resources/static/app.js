@@ -13,7 +13,7 @@ var app = (function () {
         var canvas = document.getElementById("canvas");
         var ctx = canvas.getContext("2d");
         ctx.beginPath();
-        ctx.arc(point.x, point.y, 3, 0, 2 * Math.PI);
+        ctx.arc(point.x, point.y, 1, 0, 2 * Math.PI);
         ctx.stroke();
     };
 
@@ -39,6 +39,7 @@ var app = (function () {
             stompClient.subscribe('/topic/newpoint', function (eventbody) {
                 var theObject = JSON.parse(eventbody.body);
                 alert("El punto en x: "+theObject.x+ " \n El punto en y:" + theObject.y);
+                addPointToCanvas(theObject);
             });
         });
 
